@@ -371,7 +371,7 @@ strong {
 }
 
 .navbar {
-  background: transparent;
+  background: var(--dark-color);
   z-index: 9;
 }
 
@@ -415,7 +415,7 @@ strong {
 
 .navbar-toggler:focus {
   outline: none;
-  box-shadow: none;
+  box-shadow: var(--black-color);
 }
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
