@@ -1099,3 +1099,12 @@ header.masthead {
 ul {
     list-style: none;
 }
+/* Hide video element on mobile devices */
+@media (max-width: 767px) {
+  .video-wrap video {
+    display: none;
+  }
+}
+.video-wrap video {
+  pointer-events: none;
+}

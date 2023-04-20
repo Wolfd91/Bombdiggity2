@@ -42,4 +42,14 @@ ul {
   line-height: 36px;
   transition: background 0.2s, color 0.2s;
   list-style: none;
+  /* Hide video element on mobile devices */
+@media (max-width: 767px) {
+  .video-wrap video {
+    display: none;
+  }
+}
+.video-wrap video {
+  pointer-events: none;
+}
+
 /*# sourceMappingURL=bootstrap.min.css.map */
