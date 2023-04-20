@@ -24,9 +24,9 @@ https://templatemo.com/tm-583-festava-live
 
   --body-font-family:             'Outfit', sans-serif;
 
-  --h1-font-size:                 74px;
+  --h1-font-size:                 64px;
   --h2-font-size:                 46px;
-  --h3-font-size:                 32px;
+  --h3-font-size:                 30px;
   --h4-font-size:                 28px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
@@ -548,8 +548,8 @@ strong {
   bottom: 0;
   right: 0;
   left: 0;
-  margin: 20px;
-  padding: 35px;
+  margin: 10px;
+  padding: 15px;
 }
 
 
@@ -594,10 +594,13 @@ strong {
 -----------------------------------------*/
 .artists-thumb {
     width: 100%;
-    max-width: 280px;
+    max-width: 380px;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+  justify-content: center;
+  padding-right: 6px;
+  padding-left: 6px;
 }
 
 .artists-image {
@@ -607,6 +610,7 @@ strong {
   border-radius: var(--border-radius-medium);
   display: block;
   width: 100%;
+  justify-content: center;
 }
 
 .artists-thumb:hover .artists-hover {
@@ -890,14 +894,23 @@ header.masthead {
   SOCIAL ICON               
 -----------------------------------------*/
 .social-icon {
-  margin: 0;
-  padding: 0;
+  margin-right: 5px;
+  padding: 12px;
+  list-style: none;
 }
+
+.st-inline-share-buttons li:before {
+  content: none;
+}
+
 
 .social-icon-item {
   list-style: none;
   display: inline-block;
   vertical-align: top;
+  margin-right: 6px;
+  padding-right: 6px;
+
 }
 
 .social-icon-link {
@@ -912,6 +925,7 @@ header.masthead {
   height: 35px;
   line-height: 36px;
   transition: background 0.2s, color 0.2s;
+  list-style: none;
 }
 
 .social-icon-link:hover {
@@ -942,7 +956,7 @@ header.masthead {
 -----------------------------------------*/
 @media screen and (max-width: 991px) {
   h1 {
-    font-size: 62px;
+    font-size: 58px;
   }
 
   h2 {
@@ -964,6 +978,8 @@ header.masthead {
   h6 {
     font-size: 18px;
   }
+
+
 
   .section-padding {
     padding-top: 50px;
@@ -1041,3 +1057,45 @@ header.masthead {
   }
 }
 
+@media (max-width: 576px) {
+  .about-text-info {
+    flex-wrap: wrap;
+  }
+
+  .about-text-info .d-flex {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .about-text-info .ms-2 {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .row.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .about-text {
+    text-align: center;
+  }
+}
+@media (max-width: 600px)
+.artists-thumb {
+    width: 100% !important;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.marker {
+  display: none;
+}
+ul {
+    list-style: none;
+}

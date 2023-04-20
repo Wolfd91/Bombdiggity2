@@ -1,0 +1,9 @@
+.site-footer {
+  background-color: var(--dark-color);
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.social-icon-item {
+  margin-left: 10px;
+}
