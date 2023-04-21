@@ -615,7 +615,7 @@ strong {
 
 .artists-thumb:hover .artists-hover {
   transform: translateY(0);
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .artists-hover {
@@ -643,7 +643,7 @@ strong {
 }
 
 .artists-hover p a {
-  color: var(--secondary-color);
+  color: var(--white-color);
 }
 
 .artists-hover p a:hover {
@@ -1110,4 +1110,7 @@ ul {
 }
 .black-text {
     font-color: #000000;
+}
+.navbar-toggler span {
+  display: none;
 }

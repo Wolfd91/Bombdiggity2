@@ -7,3 +7,6 @@
 .social-icon-item {
   margin-left: 10px;
 }
+.navbar-toggler span {
+  display: none;
+}

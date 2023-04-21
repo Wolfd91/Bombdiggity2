@@ -51,5 +51,8 @@ ul {
 .video-wrap video {
   pointer-events: none;
 }
+.navbar-toggler span {
+  display: none !important;
+}
 
 /*# sourceMappingURL=bootstrap.min.css.map */
