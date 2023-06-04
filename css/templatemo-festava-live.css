@@ -1114,3 +1114,15 @@ ul {
 .navbar-toggler span {
   display: none;
 }
+
+<style>
+  #videoCarousel {
+    max-width: 600px; /* Set the maximum width of the carousel */
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
+
+  .carousel-inner video {
+    max-width: 100%; /* Set the maximum width of the videos within the carousel */
+    height: auto; /* Maintain the aspect ratio of the videos */
+  }
+</style>
